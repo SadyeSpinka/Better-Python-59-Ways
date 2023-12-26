@@ -1,7 +1,7 @@
-# Item 11: Use zip to process iterators in parallel
+!*Item 11: Use zip to process iterators in parallel
 
 
-# Often in Python you find yourself with many lists of related objects. List
+! Often in Python you find yourself with many lists of related objects. List
 # comprehensions make it easy to take a source list and get a derived list by
 # applying an expression (see Item 7: Use list comprehensions instead of map
 # and filter).
@@ -98,3 +98,4 @@ for name, count in zip(names, letters):
 # 4. The zip_longest function from the itertools built-in module lets you
 #     iterate over multiple iterators in parallel regardless of their
 #     lengths (see Item 46: Use built-in algorithms and data structures).
+ 
